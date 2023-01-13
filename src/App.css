@@ -1,38 +1,144 @@
-.App {
+/* Universal Section */
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* app Section */
+
+.app {
+  background-color: black;
+}
+
+.cardcol {
+  margin-top: 50px;
+}
+
+/* Heading Section */
+
+.header-navbar {
+  background-color:white;
+}
+
+
+/* Statements Section */
+
+
+
+
+.statementContainer {
+  
+  padding: 15px;
   text-align: center;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.statementText {
+  border: 1px solid black;
+  margin: 15px;
+  padding: 25px;
+  border: 3px solid lightgray;
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.underline {
+  width: 300px;
+  margin:  15px auto;
+}
+.author {
+  text-align: left;
+  font-family:cursive;
+}
+
+/* Card Section */
+.card {
+  height: 570px;
+  border: 3px solid white;
+}
+
+.cardBody {
+  background-color: lightgray;
+}
+
+.cardImg {
+  padding: 15px;
+}
+
+@media only screen and (width: 770px) {
+  .card {
+    
   }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+/* Cart Section */
+
+.cartContainer {
+  width: 400px;
+  padding: 10px 15px;
+  position: absolute;
+  right:50px;
+  z-index: 100;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.itemContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cartTitle {
+  display:flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.close:hover {
+  cursor: pointer;
+}
+
+.cartItem {
+  width: 60%;
+  background-color: white;
+  margin-top: 10px;
+}
+.cartItem img {
+  width:50%;
+  
+}
+
+.deleteBtn {
+  height: 50px;
+  margin: auto
+}
+
+.totalCheckout {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+/* Footer Section */
+
+.footer {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.footer-list {
+  display: inline-flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footer-list li {
+  margin: 5px;
 }
