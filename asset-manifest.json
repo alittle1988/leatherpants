@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/leatherpants/static/css/main.288022df.css",
+    "main.js": "/leatherpants/static/js/main.7eb9c405.js",
+    "static/js/787.9d217b21.chunk.js": "/leatherpants/static/js/787.9d217b21.chunk.js",
+    "index.html": "/leatherpants/index.html",
+    "main.288022df.css.map": "/leatherpants/static/css/main.288022df.css.map",
+    "main.7eb9c405.js.map": "/leatherpants/static/js/main.7eb9c405.js.map",
+    "787.9d217b21.chunk.js.map": "/leatherpants/static/js/787.9d217b21.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.288022df.css",
+    "static/js/main.7eb9c405.js"
+  ]
+}
