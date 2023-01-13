@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <div className="footer">
             <h2 className="logo text-white">
-                APL
+                ALP
             </h2>
             <ul className="text-white footer-list">
                 <li><i className="fa-facebook"></i></li>
